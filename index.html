@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-brn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+            <h1>Lista de tarefas</h1>
+            <button type="button">Nova tarefa</button>
+    </header>
+    
+    <form>
+        <input type="text" id="lista-nova" required placeholder="Nome da tarefa" />
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-tarefas">
+        <li class="riscado"></li>
+    </ul>
+    
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
